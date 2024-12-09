@@ -1,0 +1,41 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.bg_primary-color {
+  background-color: #FFB7C5;
+}
+.primary-color {
+  background-color: #FFB7C5;
+}
+.bg_secondary-color {
+  background-color: #7B68EE;
+}
+.secondary-color {
+  color: #7B68EE;
+}
+.custom-button.btn {
+  background-color: #4B0082;
+  color: #FFF; 
+  border: none;
+  &:hover {
+    background-color: #9370DB;
+    transition: background-color 0.3s ease;
+  }
+}
+.hero {
+  width: 100vw;
+  height: 50vh;
+  background-color: #E6E6FA;
+}
+.hero img {
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  background-color: rgba(147, 112, 219, 0.5);
+}
