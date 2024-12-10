@@ -28,11 +28,18 @@
   background-color: #E6E6FA;
 }
 .hero img {
-  object-fit: cover;
-  object-position: top;
-  height: 100%;
   width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
 }
+
+// .hero img {
+//   object-fit: cover;
+//   object-position: top;
+//   height: 100%;
+//   width: 100%;
+// }
 .overlay {
   height: 100%;
   width: 100%;

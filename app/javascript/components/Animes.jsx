@@ -37,7 +37,7 @@ const Animes = () => {
       const noAnime = (
         <div className="vw-100 vh-50 d-flex align-items-center justify-content-center">
           <h4>
-            No animes yet. Why not <Link to="/new_anime">create one</Link>
+            No anime yet. Why not <Link to="/new_anime">create one</Link>
           </h4>
         </div>
       );
@@ -46,7 +46,7 @@ const Animes = () => {
         <>
           <section className="jumbotron jumbotron-fluid text-center">
             <div className="container py-5">
-              <h1 className="display-4">Animes for everyone</h1>
+              <h1 className="display-4">Anime for everyone</h1>
               <p className="lead text-muted">
                 Discover our curated collection of anime series, from beloved
                 classics to the latest seasonal releases. Whether you're into

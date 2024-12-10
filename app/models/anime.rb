@@ -1,8 +1,10 @@
 class Anime < ApplicationRecord
   has_many :reviews
   has_many :users, through: :reviews
-  belongs_to :genre
-  belongs_to :studio
+  has_one_attached :image
+
+  # belongs_to :genre
+  # belongs_to :studio
 
   validates :name, presence: true
   validates :description, presence: true
